@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185327D01E2DE39E00A1B013 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185327CF1E2DE39E00A1B013 /* main.m */; };
+		185327D31E2DE39E00A1B013 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 185327D21E2DE39E00A1B013 /* AppDelegate.m */; };
+		185327D61E2DE39E00A1B013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 185327D51E2DE39E00A1B013 /* ViewController.m */; };
+		185327D91E2DE39E00A1B013 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185327D71E2DE39E00A1B013 /* Main.storyboard */; };
+		185327DB1E2DE39E00A1B013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185327DA1E2DE39E00A1B013 /* Assets.xcassets */; };
+		185327DE1E2DE39E00A1B013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185327DC1E2DE39E00A1B013 /* LaunchScreen.storyboard */; };
+		185327E91E2DE39E00A1B013 /* BarrageEffectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185327E81E2DE39E00A1B013 /* BarrageEffectTests.m */; };
+		185327F41E2DE39E00A1B013 /* BarrageEffectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 185327F31E2DE39E00A1B013 /* BarrageEffectUITests.m */; };
+		185328021E2DE44E00A1B013 /* danMu.plist in Resources */ = {isa = PBXBuildFile; fileRef = 185328011E2DE44E00A1B013 /* danMu.plist */; };
+		185328051E2DE68B00A1B013 /* BEView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185328041E2DE68B00A1B013 /* BEView.m */; };
+		185328081E2DE70E00A1B013 /* BEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 185328071E2DE70E00A1B013 /* BEModel.m */; };
+		1853280B1E2DE8D000A1B013 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 1853280A1E2DE8D000A1B013 /* UIImage+Extend.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		185327E51E2DE39E00A1B013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185327C31E2DE39E00A1B013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185327CA1E2DE39E00A1B013;
+			remoteInfo = BarrageEffect;
+		};
+		185327F01E2DE39E00A1B013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185327C31E2DE39E00A1B013 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185327CA1E2DE39E00A1B013;
+			remoteInfo = BarrageEffect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		185327CB1E2DE39E00A1B013 /* BarrageEffect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarrageEffect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185327CF1E2DE39E00A1B013 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		185327D11E2DE39E00A1B013 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		185327D21E2DE39E00A1B013 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		185327D41E2DE39E00A1B013 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		185327D51E2DE39E00A1B013 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		185327D81E2DE39E00A1B013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		185327DA1E2DE39E00A1B013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		185327DD1E2DE39E00A1B013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		185327DF1E2DE39E00A1B013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185327E41E2DE39E00A1B013 /* BarrageEffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageEffectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185327E81E2DE39E00A1B013 /* BarrageEffectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageEffectTests.m; sourceTree = "<group>"; };
+		185327EA1E2DE39E00A1B013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185327EF1E2DE39E00A1B013 /* BarrageEffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageEffectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		185327F31E2DE39E00A1B013 /* BarrageEffectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageEffectUITests.m; sourceTree = "<group>"; };
+		185327F51E2DE39E00A1B013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		185328011E2DE44E00A1B013 /* danMu.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = danMu.plist; sourceTree = "<group>"; };
+		185328031E2DE68B00A1B013 /* BEView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEView.h; sourceTree = "<group>"; };
+		185328041E2DE68B00A1B013 /* BEView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEView.m; sourceTree = "<group>"; };
+		185328061E2DE70E00A1B013 /* BEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEModel.h; sourceTree = "<group>"; };
+		185328071E2DE70E00A1B013 /* BEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEModel.m; sourceTree = "<group>"; };
+		185328091E2DE8D000A1B013 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		1853280A1E2DE8D000A1B013 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		185327C81E2DE39E00A1B013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185327E11E2DE39E00A1B013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185327EC1E2DE39E00A1B013 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185327C21E2DE39E00A1B013 = {
+			isa = PBXGroup;
+			children = (
+				185327CD1E2DE39E00A1B013 /* BarrageEffect */,
+				185327E71E2DE39E00A1B013 /* BarrageEffectTests */,
+				185327F21E2DE39E00A1B013 /* BarrageEffectUITests */,
+				185327CC1E2DE39E00A1B013 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		185327CC1E2DE39E00A1B013 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				185327CB1E2DE39E00A1B013 /* BarrageEffect.app */,
+				185327E41E2DE39E00A1B013 /* BarrageEffectTests.xctest */,
+				185327EF1E2DE39E00A1B013 /* BarrageEffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		185327CD1E2DE39E00A1B013 /* BarrageEffect */ = {
+			isa = PBXGroup;
+			children = (
+				185327D11E2DE39E00A1B013 /* AppDelegate.h */,
+				185327D21E2DE39E00A1B013 /* AppDelegate.m */,
+				185327D41E2DE39E00A1B013 /* ViewController.h */,
+				185327D51E2DE39E00A1B013 /* ViewController.m */,
+				185328091E2DE8D000A1B013 /* UIImage+Extend.h */,
+				1853280A1E2DE8D000A1B013 /* UIImage+Extend.m */,
+				185328031E2DE68B00A1B013 /* BEView.h */,
+				185328041E2DE68B00A1B013 /* BEView.m */,
+				185328061E2DE70E00A1B013 /* BEModel.h */,
+				185328071E2DE70E00A1B013 /* BEModel.m */,
+				185327D71E2DE39E00A1B013 /* Main.storyboard */,
+				185327DA1E2DE39E00A1B013 /* Assets.xcassets */,
+				185327DC1E2DE39E00A1B013 /* LaunchScreen.storyboard */,
+				185327DF1E2DE39E00A1B013 /* Info.plist */,
+				185328011E2DE44E00A1B013 /* danMu.plist */,
+				185327CE1E2DE39E00A1B013 /* Supporting Files */,
+			);
+			path = BarrageEffect;
+			sourceTree = "<group>";
+		};
+		185327CE1E2DE39E00A1B013 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				185327CF1E2DE39E00A1B013 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		185327E71E2DE39E00A1B013 /* BarrageEffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				185327E81E2DE39E00A1B013 /* BarrageEffectTests.m */,
+				185327EA1E2DE39E00A1B013 /* Info.plist */,
+			);
+			path = BarrageEffectTests;
+			sourceTree = "<group>";
+		};
+		185327F21E2DE39E00A1B013 /* BarrageEffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				185327F31E2DE39E00A1B013 /* BarrageEffectUITests.m */,
+				185327F51E2DE39E00A1B013 /* Info.plist */,
+			);
+			path = BarrageEffectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		185327CA1E2DE39E00A1B013 /* BarrageEffect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185327F81E2DE39E00A1B013 /* Build configuration list for PBXNativeTarget "BarrageEffect" */;
+			buildPhases = (
+				185327C71E2DE39E00A1B013 /* Sources */,
+				185327C81E2DE39E00A1B013 /* Frameworks */,
+				185327C91E2DE39E00A1B013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarrageEffect;
+			productName = BarrageEffect;
+			productReference = 185327CB1E2DE39E00A1B013 /* BarrageEffect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		185327E31E2DE39E00A1B013 /* BarrageEffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185327FB1E2DE39E00A1B013 /* Build configuration list for PBXNativeTarget "BarrageEffectTests" */;
+			buildPhases = (
+				185327E01E2DE39E00A1B013 /* Sources */,
+				185327E11E2DE39E00A1B013 /* Frameworks */,
+				185327E21E2DE39E00A1B013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185327E61E2DE39E00A1B013 /* PBXTargetDependency */,
+			);
+			name = BarrageEffectTests;
+			productName = BarrageEffectTests;
+			productReference = 185327E41E2DE39E00A1B013 /* BarrageEffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		185327EE1E2DE39E00A1B013 /* BarrageEffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 185327FE1E2DE39E00A1B013 /* Build configuration list for PBXNativeTarget "BarrageEffectUITests" */;
+			buildPhases = (
+				185327EB1E2DE39E00A1B013 /* Sources */,
+				185327EC1E2DE39E00A1B013 /* Frameworks */,
+				185327ED1E2DE39E00A1B013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185327F11E2DE39E00A1B013 /* PBXTargetDependency */,
+			);
+			name = BarrageEffectUITests;
+			productName = BarrageEffectUITests;
+			productReference = 185327EF1E2DE39E00A1B013 /* BarrageEffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		185327C31E2DE39E00A1B013 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhangyanlin;
+				TargetAttributes = {
+					185327CA1E2DE39E00A1B013 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8B42D49B26;
+						ProvisioningStyle = Automatic;
+					};
+					185327E31E2DE39E00A1B013 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8B42D49B26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185327CA1E2DE39E00A1B013;
+					};
+					185327EE1E2DE39E00A1B013 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8B42D49B26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 185327CA1E2DE39E00A1B013;
+					};
+				};
+			};
+			buildConfigurationList = 185327C61E2DE39E00A1B013 /* Build configuration list for PBXProject "BarrageEffect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 185327C21E2DE39E00A1B013;
+			productRefGroup = 185327CC1E2DE39E00A1B013 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				185327CA1E2DE39E00A1B013 /* BarrageEffect */,
+				185327E31E2DE39E00A1B013 /* BarrageEffectTests */,
+				185327EE1E2DE39E00A1B013 /* BarrageEffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		185327C91E2DE39E00A1B013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185327DE1E2DE39E00A1B013 /* LaunchScreen.storyboard in Resources */,
+				185327DB1E2DE39E00A1B013 /* Assets.xcassets in Resources */,
+				185328021E2DE44E00A1B013 /* danMu.plist in Resources */,
+				185327D91E2DE39E00A1B013 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185327E21E2DE39E00A1B013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185327ED1E2DE39E00A1B013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		185327C71E2DE39E00A1B013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185327D61E2DE39E00A1B013 /* ViewController.m in Sources */,
+				185328051E2DE68B00A1B013 /* BEView.m in Sources */,
+				185327D31E2DE39E00A1B013 /* AppDelegate.m in Sources */,
+				185328081E2DE70E00A1B013 /* BEModel.m in Sources */,
+				185327D01E2DE39E00A1B013 /* main.m in Sources */,
+				1853280B1E2DE8D000A1B013 /* UIImage+Extend.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185327E01E2DE39E00A1B013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185327E91E2DE39E00A1B013 /* BarrageEffectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		185327EB1E2DE39E00A1B013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				185327F41E2DE39E00A1B013 /* BarrageEffectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185327E61E2DE39E00A1B013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185327CA1E2DE39E00A1B013 /* BarrageEffect */;
+			targetProxy = 185327E51E2DE39E00A1B013 /* PBXContainerItemProxy */;
+		};
+		185327F11E2DE39E00A1B013 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185327CA1E2DE39E00A1B013 /* BarrageEffect */;
+			targetProxy = 185327F01E2DE39E00A1B013 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		185327D71E2DE39E00A1B013 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185327D81E2DE39E00A1B013 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		185327DC1E2DE39E00A1B013 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				185327DD1E2DE39E00A1B013 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		185327F61E2DE39E00A1B013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		185327F71E2DE39E00A1B013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		185327F91E2DE39E00A1B013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B42D49B26;
+				INFOPLIST_FILE = BarrageEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ristone.ma.BarrageEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		185327FA1E2DE39E00A1B013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8B42D49B26;
+				INFOPLIST_FILE = BarrageEffect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ristone.ma.BarrageEffect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		185327FC1E2DE39E00A1B013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8B42D49B26;
+				INFOPLIST_FILE = BarrageEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ristone.ma.BarrageEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrageEffect.app/BarrageEffect";
+			};
+			name = Debug;
+		};
+		185327FD1E2DE39E00A1B013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8B42D49B26;
+				INFOPLIST_FILE = BarrageEffectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ristone.ma.BarrageEffectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarrageEffect.app/BarrageEffect";
+			};
+			name = Release;
+		};
+		185327FF1E2DE39E00A1B013 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8B42D49B26;
+				INFOPLIST_FILE = BarrageEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ristone.ma.BarrageEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarrageEffect;
+			};
+			name = Debug;
+		};
+		185328001E2DE39E00A1B013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 8B42D49B26;
+				INFOPLIST_FILE = BarrageEffectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ristone.ma.BarrageEffectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarrageEffect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		185327C61E2DE39E00A1B013 /* Build configuration list for PBXProject "BarrageEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185327F61E2DE39E00A1B013 /* Debug */,
+				185327F71E2DE39E00A1B013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		185327F81E2DE39E00A1B013 /* Build configuration list for PBXNativeTarget "BarrageEffect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185327F91E2DE39E00A1B013 /* Debug */,
+				185327FA1E2DE39E00A1B013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185327FB1E2DE39E00A1B013 /* Build configuration list for PBXNativeTarget "BarrageEffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185327FC1E2DE39E00A1B013 /* Debug */,
+				185327FD1E2DE39E00A1B013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		185327FE1E2DE39E00A1B013 /* Build configuration list for PBXNativeTarget "BarrageEffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				185327FF1E2DE39E00A1B013 /* Debug */,
+				185328001E2DE39E00A1B013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 185327C31E2DE39E00A1B013 /* Project object */;
+}
